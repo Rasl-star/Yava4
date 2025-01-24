@@ -7,10 +7,9 @@ public class Main {
 
 
         if (account > 1000) {
-            int procent = (account /  100 * 1);
+            int procent = (account / 100 * 1);
             System.out.println("Итоговый бонус" + procent);
-        }
-        else{
+        } else {
             System.out.println("Итоговый бонус" + 0);
         }
 
